@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio personal de Alex, desarrollador web, diseñador UI/UX y entusiasta de la tecnología.">
+    <meta name="keywords" content="desarrollo web, diseño UI/UX, portafolio, Alex, programador">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portafolio</title>
+</head>
+<body>
+    <header>
+        <a href="#home" class="logo">HEXDEC</a>
+        <i class="fas fa-bars" id="menu-icon"></i>
+        <nav id="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#services">Servicios</a>
+            <a href="#skills">Habilidades</a>
+            <a href="#education">Educación</a>
+            <a href="#experience">Experiencia</a>
+            <a href="#contact">Contacto</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-img">
+            <img src="img.jpg" alt="Foto de perfil de Alex">
+        </div>
+        <div class="home-content">
+            <h1>Hi, It's <span>Hex</span></h1>
+            <h3 class="typing-text">I'm a <span></span></h3>
+            <p>Desarrollador web apasionado por crear experiencias digitales únicas, funcionales y optimizadas. Especializado en desarrollo frontend, backend y diseño UI/UX.</p>
+            <div class="social-icons">
+                <a href="#" aria-label="LinkedIn de Alex"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#" aria-label="GitHub de Alex"><i class="fa-brands fa-github"></i></a>
+                <a href="#" aria-label="X de Alex"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#" aria-label="Instagram de Alex"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="#contact" class="btn">Contrátame</a>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">Servicios</h2>
+        <div class="services-container">
+            <div class="service-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Desarrollo Web</h3>
+                <p>Creación de sitios web modernos, responsivos y optimizados para SEO, utilizando tecnologías como HTML, CSS, JavaScript y frameworks como React.</p>
+            </div>
+            <div class="service-box">
+                <i class="fa-solid fa-paintbrush"></i>
+                <h3>Diseño UI/UX</h3>
+                <p>Diseño de interfaces intuitivas y atractivas, con un enfoque en la experiencia del usuario y la usabilidad.</p>
+            </div>
+            <div class="service-box">
+                <i class="fa-solid fa-server"></i>
+                <h3>Desarrollo Backend</h3>
+                <p>Construcción de APIs robustas y escalables con Node.js, Python o PHP para aplicaciones web dinámicas.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 class="heading">Habilidades</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <h3>HTML</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>CSS</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>React</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 75%;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <h2 class="heading">Educación</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <h3>Ingeniería en Informática</h3>
+                <p>Universidad XYZ, 2018-2022</p>
+                <p>Especialización en desarrollo de software y diseño de interfaces.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>Curso de Desarrollo Web Full Stack</h3>
+                <p>Plataforma Online, 2020</p>
+                <p>Aprendí HTML, CSS, JavaScript, React y Node.js.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="experience" id="experience">
+        <h2 class="heading">Experiencia</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <h3>Desarrollador Frontend</h3>
+                <p>Empresa ABC, 2022-2023</p>
+                <p>Desarrollo de interfaces responsivas con React y optimización de rendimiento web.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>Freelance Web Developer</h3>
+                <p>2021-Presente</p>
+                <p>Creación de sitios web personalizados para clientes en diversas industrias.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contacto</h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Nombre" required>
+                <input type="email" placeholder="Correo Electrónico" required>
+            </div>
+            <div class="input-box">
+                <input type="text" placeholder="Asunto">
+                <input type="text" placeholder="Teléfono">
+            </div>
+            <textarea placeholder="Mensaje" required></textarea>
+            <button type="submit" class="btn">Enviar Mensaje</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
